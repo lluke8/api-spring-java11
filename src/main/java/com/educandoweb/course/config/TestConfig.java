@@ -12,7 +12,7 @@ import com.educandoweb.course.entities.Order;
 import com.educandoweb.course.entities.User;
 import com.educandoweb.course.repositories.OrderRepository;
 import com.educandoweb.course.repositories.UserRepository;
-
+//COMMIT LUCAS_VASC
 @Configuration
 @Profile("test")
 public class TestConfig implements CommandLineRunner {
