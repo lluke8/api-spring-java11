@@ -27,6 +27,8 @@ public class OrderResource {
 		return ResponseEntity.ok().body(list);
 	}
 	
+//	TESTE-GIT
+	
 	@GetMapping(value = "/{id}")
 	public ResponseEntity<Order> findById(@PathVariable Long id){
 		
