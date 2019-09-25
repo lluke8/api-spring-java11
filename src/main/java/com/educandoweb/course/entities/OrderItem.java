@@ -41,6 +41,7 @@ public class OrderItem implements Serializable {
 		id.setOrder(order);
 	}
 	
+		
 	public Product getProduct() {
 		return id.getProduct();
 	}
@@ -71,6 +72,10 @@ public class OrderItem implements Serializable {
 		int result = 1;
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
 		return result;
+	}
+	
+	public Double getSubTotal() {
+		return price * quantity;
 	}
 
 	@Override
